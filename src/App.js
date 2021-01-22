@@ -60,7 +60,7 @@ class App extends React.Component {
         });
 
         let pts = [];
-        const num_steps = 25;
+        const num_steps = 35;
         for (let i=0; i<num_steps; i++) {
             const t = 2 + (num_cpts-2) * i / (num_steps-1);
             pts.push(curve.evaluate([],t));
